@@ -1,4 +1,4 @@
-import {getDb} from '../db.js'
+import { getDb } from '../db.js'
 
 export const getAllFlugzeug = async () => {
 
@@ -6,4 +6,10 @@ export const getAllFlugzeug = async () => {
     const result = await db.collection('flugzeuge').find().toArray()
     return result
 
+}
+
+export const savePlain = async (flugzeug) => {
+    const db = await getDb()
+    const result = await db.collection('flugzeuge').insertOne(flugzeug)
+    return result
 }
