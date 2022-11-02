@@ -1,0 +1,24 @@
+{
+  "name": "hangar_server",
+  "version": "1.0.0",
+  "description": "## ToDo's",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EbbeUndFlut/hangar_server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EbbeUndFlut/hangar_server/issues"
+  },
+  "homepage": "https://github.com/EbbeUndFlut/hangar_server#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
