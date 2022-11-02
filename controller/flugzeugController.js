@@ -1,4 +1,4 @@
-
+import { getAllFlugzeug } from "../services/flugzeugService.js"
 
 export const getFlugzeug = async (req, res) => {
     try {

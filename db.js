@@ -3,6 +3,8 @@ import { MongoClient } from "mongodb"
 const URL = process.env.MONGODB_URL
 const DB_NAME = process.env.DB_NAME
 
+console.log(URL)
+
 const client = new MongoClient(URL)
 
 let db
